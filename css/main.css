@@ -1,0 +1,57 @@
+.main {
+    height: 65rem;
+    width: 100vw;
+    
+    background-image: url('../img/title.jpg');
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .main {
+        height: 21rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        height: 38.5rem;
+    }
+}
+
+.main__button {
+    position: absolute;
+
+    top: 42.5rem;
+    left: 50%;
+
+    width: 26.6rem;
+    height: 7rem;
+    margin-top: 5rem;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;
+    background-color: #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main__button {
+        top: 22.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .main__button {
+        top: 11.2rem;
+
+        width: 15rem;
+        height: 4.5rem;
+
+        font-size: 1.4rem;
+    }
+}

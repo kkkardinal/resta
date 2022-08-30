@@ -1,0 +1,40 @@
+.logo {
+    width: 20rem;
+    height: 10rem;
+    padding: 4rem 5rem;
+
+    background-color: #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        height: 6.3rem; 
+        padding: 2rem 3.5rem;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 767px) {
+    .logo {
+        position: absolute;
+
+        left: 50%;
+        top: 25px;
+
+        width: 8.5rem;
+        height: 3.4rem;    
+        padding: 0.9rem 1.3rem;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);  
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo__icon {
+        width: 8rem;
+    }
+}
+@media (max-width: 767px) {
+    .logo__icon {
+        width: 6rem;
+    }
+}

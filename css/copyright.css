@@ -1,0 +1,20 @@
+.copyright {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .copyright {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .copyright {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+}

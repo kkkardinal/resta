@@ -1,0 +1,35 @@
+.footer-links__list {
+    line-height: 2;
+
+    list-style: none;
+}
+
+@media (max-width: 767px) {
+    .footer-links__list {
+        display: none;
+    }
+}
+
+.footer-links__subtitle {
+    margin-bottom: 6.5rem;
+
+    color: #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer-links__subtitle {
+        margin-bottom: 2.7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-links__subtitle {
+        display: none;
+    }
+}
+
+.footer-links__link {
+    text-decoration: none;
+
+    color: white;
+}

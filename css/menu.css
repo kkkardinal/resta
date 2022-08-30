@@ -1,0 +1,121 @@
+.recommendation-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.menu-item {
+    display: flex;
+
+    padding-bottom: 7rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu-item {
+        width: 33.5rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-item {
+        width: 29.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.menu-item__image {
+    margin-right: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu-item__image {
+        width: 11rem;
+        margin-right: 1.3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-item__image {
+        width: 11rem;
+        margin-right: 1.3rem;
+    }
+}
+
+.menu-item__name {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.3rem;    
+    letter-spacing: 0.025em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu-item__name {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-item__name {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}
+
+.menu-item__description {
+    width: 32.5rem;
+
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.025em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu-item__description {
+        width: 21rem;
+
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-item__description {
+        width: 17.5rem;
+        
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
+
+.menu-item__cost {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.025em;
+
+    color:  #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu-item__cost {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-item__cost {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}
+
+.menu-item__information {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}

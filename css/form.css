@@ -1,0 +1,101 @@
+.form {
+    padding-top: 7.5rem;
+    padding-bottom: 7.3rem;
+
+    background-color: #6FCF97;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .form {
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.form__inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 5.8rem 10.5rem 0 10.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form__inputs {
+        margin: 3rem 4.5rem 0 4.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .form__inputs {
+        margin: 2rem 2rem 0 2rem;
+    }
+}
+
+.form__title {
+    margin-left: 10.5rem;
+    padding-left: 1rem;
+
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.025em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form__title {
+        margin-left: 4.4rem;
+
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .form__title {
+        margin-left: 2.1rem;
+
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+}
+
+.form__button {
+    width: 100%; 
+    padding: 2rem 0;   
+
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.025em;
+
+    background-color: #219653;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form__button {
+        width: 100%; 
+        padding: 2rem 0;
+
+        font-size: 1.8rem;
+        line-height: 2.5rem;      
+    }
+}
+
+@media (max-width: 767px) {
+    .form__button { 
+        width: 100%;             
+        padding: 1rem 0;
+
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+}

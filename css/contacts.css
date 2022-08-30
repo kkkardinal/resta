@@ -1,0 +1,49 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5.5rem 10.5rem 0 10.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contacts {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        display: none;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+
+    width: 45%; 
+}
+
+.contact-data__block {
+    display: flex;
+    flex-flow: column;    
+}
+
+.contact__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.025em;
+
+    color: #F2F2F2;
+}
+
+.contact__data {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.025em;
+}
+
+.contact__icon {
+    margin-right: 1rem;
+}

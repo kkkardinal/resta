@@ -1,0 +1,27 @@
+.custom-select {
+    width: 48%;
+    padding: 1.9rem;
+    margin-bottom: 1rem;
+
+    font-size: 1.8rem;
+
+    border: 1px solid #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .custom-select {
+        height: 4.2rem;
+        padding: 1rem;
+        font-size: 1.6rem;
+    }
+}
+
+.custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.custom-select::-ms-expand {
+    display: none;
+}

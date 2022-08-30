@@ -1,0 +1,86 @@
+.custom-input {
+    width: 48%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+
+    font-size: 1.8rem;
+
+    border: 1px solid #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .custom-input {
+        height: 4rem;
+
+        font-size: 1.6rem;
+    }
+}
+
+.custom-input::placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .custom-input::placeholder {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-input::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.custom-input-with-icon {
+    position: relative;
+
+    width: 48%;
+}
+
+.custom-input-with-icon:before {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    right: 2rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: auto 0;
+
+    background-size: cover;
+
+    content: '';
+}
+
+@media (max-width: 767px) {
+    .custom-input-with-icon:before {
+        right: 1rem;
+    }
+}
+
+.custom-input-with-icon_calendar:before {
+    margin-top: 2rem;
+
+    background: url('../icons/calendar.svg') no-repeat;
+}
+
+@media (max-width: 767px) {
+    .custom-input-with-icon_calendar:before {
+        margin-top: 1rem;
+    }
+}
+
+.custom-input_calendar {
+    width: 100%;
+}

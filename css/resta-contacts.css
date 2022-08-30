@@ -1,0 +1,22 @@
+.resta-contacts__list {
+    width: 30.5rem;
+    margin-top: 5rem;
+
+    list-style: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .resta-contacts__list {
+        width: 27rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .resta-contacts__list {
+        width: 20.5rem;
+        margin-top: 2rem;
+        
+        text-align: center;
+    }
+}

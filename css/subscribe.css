@@ -1,0 +1,148 @@
+.subscribe {
+    width: 44rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe {
+        width: 23.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe  {
+        width: 23.8rem;
+    }
+}
+
+.subscribe-input {
+    display: flex;
+
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe-input {
+        margin-bottom: 2.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe-input {
+        margin-bottom: 5rem;
+    }
+}
+
+.subscribe__button {
+    width: 17rem;
+
+    background-color: #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe__button {
+        width: 9.4rem;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe__button {
+        width: 9.4rem;
+        padding: 1.2rem;
+    }
+}
+
+.subscribe__comment {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+
+    letter-spacing: 0.025em;
+
+    color: #F2F2F2;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe__comment {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe__comment {
+        width: 25.3rem;
+        
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        text-align: center;
+    }
+}
+
+.subscribe__subtitle {
+    margin-bottom: 6.5rem;
+
+    color: #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe__subtitle {
+        margin-bottom: 2.7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe__subtitle {
+        margin-bottom: 2.7rem;
+        margin-top: 6rem;
+
+        text-align: center;
+    }
+}
+
+.subscribe__button {
+    width: 17rem;
+
+    background-color: #6FCF97;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe__button {
+        width: 9.4rem;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe__button {
+        width: 9.4rem;
+        padding: 1.2rem;
+    }
+}
+
+.subscribe-input__email {
+    width: 27rem;
+    padding: 2rem;
+    
+    border: 1px solid #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscribe-input__email {
+        width: 14.4rem;
+        padding: 1.5rem;
+
+        border-right: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe-input__email  {
+        width: 14.4rem;
+        padding: 1.5rem;
+    }
+}
+
+.subscribe-input__email::placeholder {
+    color: #FFFFFF;
+}
